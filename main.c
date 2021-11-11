@@ -27,7 +27,7 @@ int main()
     printf("%d\n", add(-1193932268, -739412326));
     printf("%d\n", add(-8, -8));
     printf("%d\n", add(-8, 9));
-    printf("******* finished printing 'add'! *******");
+    printf("***\n");
     // finished tested for add!
     printf("%d\n", sub(-1, 4));
     printf("%d\n", sub(3, 5));
@@ -54,7 +54,7 @@ int main()
     printf("%d\n", sub(1690446029, -1227832313));
     printf("%d\n", sub(-1485781014, 1941883332));
     printf("%d\n", sub(1021042896, -1734076753));
-    printf("******* finished printing 'sub'! *******");
+    printf("***\n");
     // finished tested for sub!
     printf("%d\n", multi(10, 5));
     printf("%d\n", multi(1, 8));
@@ -80,7 +80,7 @@ int main()
     printf("%d\n", multi(5, -3));
     printf("%d\n", multi(-1799608842, -1505362750));
     printf("%d\n", multi(-1193932268, -739412326));
-    printf("******* finished printing 'multi'! *******");
+    printf("***\n");
     // finished tested for multi!
     printf("%d\n", equal(4, 4));
     printf("%d\n", equal(0, -0));
@@ -95,7 +95,7 @@ int main()
     printf("%d\n", equal(0, -0));
     printf("%d\n", equal(1374905205, 1374905205));
     printf("%d\n", equal(-2147483648, 0));
-    printf("******* finished printing 'equal'! *******");
+    printf("***\n");
     // finished tested for equal!
     printf("%d\n", greater(4, 4));
     printf("%d\n", greater(0, -2147483648));
@@ -111,6 +111,5 @@ int main()
     printf("%d\n", greater(1374905205, 1374905205));
     printf("%d\n", greater(-2147483648, 0));
     printf("%d\n", greater(4, 4));
-    printf("******* finished printing 'greater'! *******");
-
+    printf("***\n");
 }
